@@ -1,0 +1,138 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1);
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+
+@import "copy";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+$open-sans: 'Open Sans', sans-serif;
+
+.bold { font-weight: 700; }
+.semi-bold { font-weight: 600; }
+.light { font-weight: 300; }
+.italic { font-style: italic; }
+
+body{
+	font-family: $open-sans;
+	font-weight: 400;
+}
+
+p{
+	font-size: .8em;
+}
+
+h1, h2{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: bolder;
+	color: black;
+	margin: 0;
+}
+
+h2{
+	font-size: .8em;
+}
+
+.site-description{
+	h1{
+		letter-spacing: 1px;
+	}
+}
+
+.download-pdf{
+	text-transform: uppercase;
+	color: $lightgrey;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #9B9B9B;
+	font-size: .7em;
+	text-align: right;
+	padding-right: 1.5em;
+}
+
+.image-wrap{
+	text-align: left;
+	line-height: 1.4;
+	p{
+		margin: 0;
+		color: $darkgrey;
+		font-size: .7em;
+	}
+	#artist-name{
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+	#title{
+		display: inline-block;
+		text-transform: uppercase;
+	}
+	#year{
+
+	}
+	#medium{
+
+	}
+	#framed-dimensions{
+
+	}
+	#unframed-dimensions{
+
+	}
+}
+
+.single {
+	p{
+		margin: 0;
+		font-size: .7em;
+		color: $darkgrey;
+	}
+	#artist-name{
+		color: black;
+		text-transform: uppercase;
+		font-size: 1em;
+		letter-spacing: 1px;
+	}
+	#title{
+		display: inline-block;
+		text-transform: uppercase;
+		font-size: 1em;
+		color: $darkgrey;
+	}
+	#year{
+
+	}
+	#medium{
+		margin-top: 1em;
+	}
+	#framed-dimensions{
+
+	}
+	#unframed-dimensions{
+
+	}
+	#price{
+		margin-top: 1em;
+	}
+	.description{
+		h2{
+			color: $darkgrey;
+			letter-spacing: 1px;
+		}
+		#description{
+			color: $lightgrey;
+		}
+	}
+
+}
